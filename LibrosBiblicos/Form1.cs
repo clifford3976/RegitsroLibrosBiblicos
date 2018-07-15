@@ -15,5 +15,17 @@ namespace LibrosBiblicos
         {
             InitializeComponent();
         }
+
+        private void librosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            UI.Registro.rLibros r = new UI.Registro.rLibros();
+            r.Show();
+        }
+
+        private void librosToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            UI.Consulta.cLibros c = new UI.Consulta.cLibros();
+            c.Show();
+        }
     }
 }
